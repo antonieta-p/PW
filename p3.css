@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(226, 240, 244);
+  }
+  
+  h1 {
+    color: rgb(58, 44, 103);
+    text-align: left;
+  }
+
+  h2 {
+    color: rgb(58, 44, 103);
+    text-align: left;
+  }
+
+  h3 {
+    color: rgb(58, 44, 103);
+    text-align: left;
+  }
+  
+  p {
+    font-family: 'Calibri';
+    font-size: 15px;
+  }
