@@ -1,0 +1,31 @@
+#barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  #bar {
+    float: left;
+  } 
+  
+  li a {
+    display: block;
+    font-family: 'Calibri';
+    color: rgb(249, 123, 34);
+    text-align: center;
+    padding: 15px 17px;
+    border: 15px rgb(124, 144, 112);
+    border-bottom: 2px solid rgb(124, 144, 112);
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    font-size: 130%;
+  }
+
+  .active {
+    background-color: rgb(124, 144, 112);
+    color: rgb(254, 232, 176);
+  }
