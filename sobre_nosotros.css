@@ -25,9 +25,13 @@ body {
   }
 
   h3 {
-    color: rgb(156, 167, 119);
+    color: rgb(124, 144, 112);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-right: 4vw;
+    margin-left: 4vw;
   }
   
   p {
@@ -40,4 +44,11 @@ body {
     margin-right: 50px;
     margin-left: 50px;
   }
-  
+
+  .flex-container {
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 251, 240);
+    justify-content: space-around;
+    align-items: center;
+  }  

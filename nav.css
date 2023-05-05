@@ -3,12 +3,16 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
   }
   
   #bar {
     float: left;
   } 
+
+#Encabezado {
+  width: 10%;
+}
   
   li a {
     display: block;

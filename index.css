@@ -1,6 +1,8 @@
 /* Use display:block instead of float:left to group the buttons below each other, instead of side by side */
 
 body {
+  /* background-image: url("./Pizzeria.png") style="width:100%;" ; */
+  background-image: url("./Pizzeria '67 Logo.png");
   background-color: rgb(255, 255, 255);
 }
 
@@ -8,41 +10,49 @@ h1 {
   color: rgb(249, 123, 34);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: left;
-  font-size: 45px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-right: 50px;
-  margin-left: 50px;
+  font-size: 4vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-right: 4vw;
+  margin-left: 4vw;
 }
 
 h2 {
   color: rgb(124, 144, 112);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: left;
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  margin-right: 50px;
-  margin-left: 50px;
+  font-size: 3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-right: 4vw;
+  margin-left: 4vw;
 }
 
 h3 {
   color: rgb(124, 144, 112);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: left;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-right: 4vw;
+  margin-left: 4vw;
 }
 
 p {
   color: rgb(124, 144, 112);
   font-family: 'Calibri';
   text-align: justify;
-  font-size: 16px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 50px;
-  margin-left: 50px;
+  font-size: 1.3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-right: 0.3vw;
+  margin-left: 0.3vw;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  background-color: rgb(255, 251, 240);
+  justify-content: space-around;
+  align-items: center;
 }
