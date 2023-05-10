@@ -7,12 +7,12 @@ body {
 h1 {
   color: rgb(249, 123, 34);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: left;
+  text-align: center;
   font-size: 4vw;
   margin-top: 1vw;
   margin-bottom: 1vw;
-  margin-right: 4vw;
-  margin-left: 4vw;
+  margin-right: 1vw;
+  margin-left: 0.3vw;
 }
 
 h2 {
@@ -64,4 +64,15 @@ p {
   background-image: url("Pizzeria '67 Logo.png");
   background-size: 100% 100%;  
   background-repeat: no-repeat;
+}
+
+.mensaje{
+  color: rgb(249, 123, 34);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 4vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-right: 1vw;
+  margin-left: 0.3vw;
 }
