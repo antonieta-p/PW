@@ -1,92 +1,92 @@
 body {
-    background-color: rgb(255, 255, 255);
-  }
+  background-color: rgb(255, 255, 255);
+}
   
-  h1 {
-    color: rgb(249, 123, 34);
-    text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 4vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-right: 4vw;
-    margin-left: 4vw;
-  }
+h1 {
+  color: rgb(249, 123, 34);
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  /* margin-right: 4vw; */
+  margin-left: 4vw;
+}
   
-  h2 {
-    color: rgb(124, 144, 112);
-    text-align: left;
-    font-family: 'Calibri';
-    font-size: 2vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-right: 4vw;
-    margin-left: 4vw;
-  }
+h2 {
+  color: rgb(124, 144, 112);
+  text-align: left;
+  font-family: 'Calibri';
+  font-size: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 0.3vw;
+  /* margin-right: 4vw; */
+  margin-left: 4vw;
+}
   
-  h3 {
-    color: rgb(124, 144, 112);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: left;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-right: 4vw;
-    margin-left: 4vw;
-  }
+h3 {
+  color: rgb(124, 144, 112);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  /* margin-right: 4vw; */
+  margin-left: 4vw;
+}
   
-  label {
-    color: rgb(124, 144, 112);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    text-align: left;
-    font-size: 1.3vw;
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-right: 4vw;
-    margin-left: 4vw;
-  }
+label {
+  color: rgb(124, 144, 112);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.3vw;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  margin-top: 1vw;
+  margin-bottom: 0.1vw;
+  /* margin-right: 4vw; */
+  margin-left: 4vw;
+}
 
-  input {
-    width: 98%;
-    padding: 10px 13px;
-    font-family: 'Calibri';
-    font-size: 1.3vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-right: 0.1vw;
-    margin-left: 4vw;
-    box-sizing: border-box;
-    /* border: 2px solid rgb(249, 123, 34);
-    border-radius: 4px; */
-    border: none;
-    border-bottom: 0.18vw solid rgb(249, 123, 34);
-  }
+input {
+  width: 98%;
+  padding: 10px 13px;
+  font-family: 'Calibri';
+  font-size: 1.3vw;
+  margin-top: 0.1vw;
+  margin-bottom: 0.5vw;
+  /* margin-right: 0.1vw; */
+  margin-left: 4vw;
+  box-sizing: border-box;
+  /* border: 2px solid rgb(249, 123, 34);
+  border-radius: 4px; */
+  border: none;
+  border-bottom: 0.13vw solid rgb(249, 123, 34);
+}
 
-  input:focus {
-    background-color: rgb(248, 243, 231);
-  }
+input:focus {
+  background-color: rgb(248, 243, 231);
+}
 
-  input:hover{
-    font-size: 130%;
-  }
+input:hover{
+  font-size: 130%;
+}
 
-  p {
-    color: rgb(124, 144, 112);
-    font-family: 'Calibri';
-    text-align: justify;
-    font-size: 1.3vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-right: 0.3vw;
-    margin-left: 0.3vw;
-  }
+p {
+  color: rgb(124, 144, 112);
+  font-family: 'Calibri';
+  text-align: justify;
+  font-size: 1.3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  /* margin-right: 0.3vw; */
+  margin-left: 0.3vw;
+}
 
-  .flex-container {
-    width: 100%;
-    display: flex;
-    background-color: rgb(255, 251, 240);
-    justify-content: space-around;
-    align-items: center;
-  }
+.flex-container {
+  width: 100%;
+  display: flex;
+  background-color: rgb(255, 251, 240);
+  justify-content: space-around;
+  align-items: center;
+}

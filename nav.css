@@ -1,37 +1,33 @@
 #barra {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /* background-color: #ffffff; */
-  }
-  
-  #bar {
-    float: left;
-  } 
-
-#Encabezado {
-  width: 10%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #ffffff; */
 }
-  
-  li a {
-    display: block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(249, 123, 34);
-    text-align: center;
-    font-size: 1.5vw;
-    padding: 1vw 1vw;
-    border: 0.2vw rgb(124, 144, 112);
-    border-bottom: 0.2vw solid rgb(124, 144, 112);
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    font-size: 140%;
-    color: rgb(249, 123, 34);
-  }
 
-  .active {
-    background-color: rgb(124, 144, 112);
-    color: rgb(254, 232, 176);
-  }
+#bar {
+  float: right;
+} 
+
+li a {
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(249, 123, 34);
+  text-align: center;
+  font-size: 1.5vw;
+  padding: 1vw 1vw;
+  border: 0.2vw rgb(124, 144, 112);
+  border-bottom: 0.2vw solid rgb(124, 144, 112);
+  text-decoration: none;
+}
+
+li a:hover {
+  font-size: 140%;
+  color: rgb(249, 123, 34);
+}
+
+.active {
+  background-color: rgb(124, 144, 112);
+  color: rgb(254, 232, 176);
+}
