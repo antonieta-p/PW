@@ -7,7 +7,15 @@
 }
 
 #bar {
+  float: left;
+} 
+
+#LOGO {
   float: right;
+  font-family: Calibri;
+  color: rgb(249, 123, 34);
+  font-size: 3vw;
+  padding: 1vw 1vw;
 } 
 
 li a {

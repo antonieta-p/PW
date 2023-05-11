@@ -37,9 +37,8 @@
     display: grid;
     grid-gap: 2vw;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1200px;
-    margin: auto;
-    padding: 3vw 0vw;
+    max-width: 1500px;
+    padding: 1vw 1vw;
     width: 100%;
 }
   
@@ -53,12 +52,14 @@
 }
   
 .redes h2 {
+    font-size: 2vw;
     color: rgb(249, 123, 34);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* navegación */
 .navegacion h2 {
+    font-size: 2vw;
     color: rgb(249, 123, 34);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -72,7 +73,7 @@
 
 .navegacion li a {
     display: block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri;
     color:rgb(124, 144, 112);
     text-align: center;
     font-size: 1.5vw;
@@ -81,9 +82,15 @@
     text-decoration: none;
 }
 
+li a:hover {
+    font-size: 100%;
+    color: rgb(249, 123, 34);
+}
+
 /* contacto */
 
 .contacto h2 {
+    font-size: 2vw;
     color: rgb(249, 123, 34);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -100,6 +107,7 @@
 .pie .CR {
     background-color: rgb(124, 144, 112);
     color: rgb(255, 255, 255);
+    max-width: 1500px;
     padding: 1vw 1vw;
     font-size: 1.3vw;
     text-align: center;
