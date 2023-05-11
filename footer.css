@@ -1,15 +1,110 @@
-.LogoInstagram{
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-right: 4vw;
-    margin-left: 4vw;
-    width: 2vw;
-}
+/* logos */
 
-.LogoFacebook{
+.LogoIG{
     margin-top: 1vw;
     margin-bottom: 1vw;
-    margin-right: 4vw;
-    margin-left: 4vw;
+    /* margin-right: 4vw;
+    margin-left: 4vw; */
     width: 3.4vw;
 }
+
+.LogoFB{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    /* margin-right: 4vw;
+    margin-left: 4vw; */
+    width: 3.4vw;
+}
+ 
+/* footer */
+.footer {
+    bottom: 0;
+    height: 2vw;
+    position: fixed;
+    width: 100%;
+}
+
+.pie {
+    background-color: rgb(255, 255, 255);
+    height: 30%;
+    width: 100%;
+}
+  
+.pie .grupo-1 {
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: auto;
+    padding: 3vw 0vw;
+    width: 100%;
+}
+  
+.pie .grupo-1 .box a {
+    align-items: center;
+    display: relative;
+    height: 2%;
+    justify-content: right;
+    width: 5%;
+}
+  
+.box h2 {
+    color: rgb(249, 123, 34);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box1 h2 {
+    color: rgb(249, 123, 34);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box2 h2 {
+    color: rgb(249, 123, 34);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box1 {
+    clear: both;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    list-style: none;
+}
+
+.box1 li a {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(249, 123, 34);
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 0vw 0vw;
+    border: 0.2vw rgb(124, 144, 112);
+    text-decoration: none;
+}
+  
+.box2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+  
+
+
+/* copyright */
+.pie .CR {
+    background-color: rgb(124, 144, 112);
+    color: rgb(255, 255, 255);
+    padding: 1vw 1vw;
+    font-size: 15px;
+    text-align: center;
+}
+
+b {
+    color: rgb(255, 255, 255);
+    font-family: 'Calibri';
+    text-align: center;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-right: 4vw;
+    margin-left: 4vw;
+  }
