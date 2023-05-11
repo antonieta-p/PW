@@ -57,14 +57,14 @@ p {
 
 .bg-image { 
   width: 100%;
-  align-items: center;
+  align-items: right;
   /* height: 600px;  */
   background-image: url('image/background-image.jpg'); 
   background-image: url("Pizzeria '67 Logo.png");
-  background-size: 1000% 100%;  
+  background-size: 100% 100%;  
   background-repeat: no-repeat;
 }
 
-img{
+img {
   max-width: 1200px;
 }
