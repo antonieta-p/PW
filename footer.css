@@ -1,5 +1,7 @@
 /* logos */
-
+.redes{
+    text-align: center;}
+    
 .LogoIG{
     margin-top: 1vw;
     margin-bottom: 1vw;
@@ -64,22 +66,15 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.navegacion {
-    clear: both;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    list-style: none;
-}
-
-.navegacion li a {
+.navegacion a {
     display: block;
     font-family: Calibri;
     color:rgb(124, 144, 112);
-    text-align: center;
     font-size: 1.5vw;
     padding: 0vw 0vw;
     border: 0.2vw rgb(124, 144, 112);
     text-decoration: none;
+    text-align: center;
 }
 
 li a:hover {
@@ -94,13 +89,13 @@ li a:hover {
     color: rgb(249, 123, 34);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-  
-.contacto {
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    margin-bottom: 25px;
+
+.contacto p {
+    color: rgb(124, 144, 112);
+    font-family: 'Calibri';
+    text-align: center;
+    font-size: 1.3vw;
 }
-  
 
 
 /* copyright */

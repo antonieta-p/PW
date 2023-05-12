@@ -47,24 +47,33 @@ p {
   margin-left: 0.3vw;
 }
 
-.flex-container {
-  width: 100%;
-  display: flex;
-  background-color: rgb(255, 251, 240);
-  justify-content: space-around;
-  align-items: center;
+.containerr {  display: flex;
+  justify-content: center;
+  width: 100vw;
+  /* border: 2px solid red; */
+}
+/* para centrar las imagenes */
+
+.logo{
+  width: 12vw;
+  font-family: 'Calibri';
+  text-align: center;
+  font-size: 1.3vw;
 }
 
-.bg-image { 
+/* .bg-image { 
   width: 100%;
   align-items: right;
-  /* height: 600px;  */
+  height: 600px; 
   background-image: url('image/background-image.jpg'); 
   background-image: url("Pizzeria '67 Logo.png");
   background-size: 100% 100%;  
   background-repeat: no-repeat;
-}
+} */
 
-img {
-  max-width: 1200px;
-}
+/* .bg-image {
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+} */
+
