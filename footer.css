@@ -39,7 +39,7 @@
     display: grid;
     grid-gap: 2vw;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1500px;
+    /* max-width: 1500px; */
     padding: 1vw 1vw;
     width: 100%;
 }
@@ -97,14 +97,26 @@ li a:hover {
     font-size: 1.3vw;
 }
 
+.contacto a {
+    display: block;
+    font-family: Calibri;
+    color:rgb(124, 144, 112);
+    font-size: 1.5vw;
+    padding: 0vw 0vw;
+    border: 0.2vw rgb(124, 144, 112);
+    text-decoration: none;
+    text-align: center;
+}
+
 
 /* copyright */
 .pie .CR {
     background-color: rgb(124, 144, 112);
     color: rgb(255, 255, 255);
-    max-width: 1500px;
+    /* max-width: 1500px; */
     padding: 1vw 1vw;
     font-size: 1.3vw;
+    margin: auto;
     text-align: center;
 }
 
