@@ -1,12 +1,32 @@
-/* .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+.footer {
     width: 100%;
-    background-color: rgb(124, 144, 112);
-    color: white;
+    background-color: #ffffff;
+    overflow: auto;
+    float: center;
+    /* border-bottom: 0.2vw solid rgb(124, 144, 112); */
+  }
+
+
+.footer a {
     text-align: center;
- } */
+    padding: 0.7vw;
+    color: #C21010;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.footer a:hover {
+    /* font-size: 100%; */
+    color: rgb(26, 106, 29);
+    /* background-color: #ffd4d4; */
+}
+
+
+
+
+
+
+
 
 .mail {
     background-color: rgb(124, 144, 112);

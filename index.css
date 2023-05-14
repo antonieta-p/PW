@@ -86,9 +86,9 @@ element.style {
   padding: 0.7vw 0.7vw;
   text-align: center;
   display: flex;
+  cursor: pointer;
   margin: auto;
-  border-radius: 1vw;
-  border-color: #dd0000;
+  border-radius: 0.8em;
 }
 
 .boton a {
