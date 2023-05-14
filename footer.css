@@ -22,7 +22,12 @@
 }
 
 
-
+@media screen and (max-width: 31.25em) {
+    .footer a {
+      float: none;
+      display: block;
+    }
+  }
 
 
 
