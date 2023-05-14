@@ -1,132 +1,51 @@
-/* logos */
-.redes{
-    text-align: center;}
-    
-.LogoIG{
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    /* margin-right: 4vw;
-    margin-left: 4vw; */
-    width: 3.4vw;
-}
-
-.LogoFB{
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    /* margin-right: 4vw;
-    margin-left: 4vw; */
-    width: 3.4vw;
-}
- 
-/* footer general */
-.footer {
-    bottom: 0;
-    height: 2vw;
+/* .footer {
     position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-}
-
-.pie {
-    background-color: rgb(255, 255, 255);
-    height: 30%;
-    width: 100%;
-}
-  
-
-/* agrupación: redes, navegación, contacto */
-
-.pie .grupo {
-    display: grid;
-    grid-gap: 2vw;
-    grid-template-columns: repeat(3, 1fr);
-    /* max-width: 1500px; */
-    padding: 1vw 1vw;
-    width: 100%;
-}
-  
-/* redes */
-.pie .grupo .redes a {
-    align-items: center;
-    display: relative;
-    height: 2%;
-    justify-content: right;
-    width: 5%;
-}
-  
-.redes h2 {
-    font-size: 2vw;
-    color: rgb(249, 123, 34);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-/* navegación */
-.navegacion h2 {
-    font-size: 2vw;
-    color: rgb(249, 123, 34);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.navegacion a {
-    display: block;
-    font-family: Calibri;
-    color:rgb(124, 144, 112);
-    font-size: 1.5vw;
-    padding: 0vw 0vw;
-    border: 0.2vw rgb(124, 144, 112);
-    text-decoration: none;
+    background-color: rgb(124, 144, 112);
+    color: white;
     text-align: center;
-}
+ } */
 
-li a:hover {
-    font-size: 100%;
-    color: rgb(249, 123, 34);
-}
-
-/* contacto */
-
-.contacto h2 {
-    font-size: 2vw;
-    color: rgb(249, 123, 34);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.contacto p {
+.mail {
+    background-color: rgb(124, 144, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: rgb(124, 144, 112);
-    font-family: 'Calibri';
+    max-width: 1500px;
+    padding: 0.8em 0.8em;
+    font-size: 1.04em;
+    margin: auto;
     text-align: center;
-    font-size: 1.3vw;
 }
 
-.contacto a {
-    display: block;
-    font-family: Calibri;
-    color:rgb(124, 144, 112);
-    font-size: 1.5vw;
-    padding: 0vw 0vw;
-    border: 0.2vw rgb(124, 144, 112);
-    text-decoration: none;
-    text-align: center;
-}
+/* .mail a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(26, 106, 29);
+    font-size: 1em;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+} */
 
 
 /* copyright */
-.pie .CR {
-    background-color: rgb(124, 144, 112);
-    color: rgb(255, 255, 255);
-    /* max-width: 1500px; */
-    padding: 1vw 1vw;
-    font-size: 1.3vw;
+.CR {
+    /* background-color: rgb(124, 144, 112); */
+    color: rgb(124, 144, 112);
+    max-width: 1500px;
+    padding: 0.8em 0.8em;
+    font-size: 1.04em;
     margin: auto;
     text-align: center;
 }
 
 b {
-    color: rgb(255, 255, 255);
+    color: rgb(26, 106, 29);
     font-family: 'Calibri';
     text-align: center;
-    font-size: 1.3vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-right: 4vw;
-    margin-left: 4vw;
+    font-size: 1.04em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    /* margin-right: 3.2em;
+    margin-left: 3.2em; */
   }

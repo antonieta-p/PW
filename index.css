@@ -1,81 +1,113 @@
-/* Use display:block instead of float:left to group the buttons below each other, instead of side by side */
-
-body {
-  background-color: rgb(255, 255, 255);
+.espacio {
+  position: relative;
+  display: block;
+  clear: both;
+  font-size: 13px;
+  height: 0.7vw;
+  color: #eeeeee;
+  margin: 0;
+  /* background: #92bd95; */
+  background: #ffffff;
 }
 
-h1 {
-  color: rgb(249, 123, 34);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-  font-size: 4vw;
-  margin-top: 1vw;
-  margin-bottom: 1vw;
-  margin-right: 1vw;
-  margin-left: 1vw;
+.espaciocolor {
+  position: relative;
+  display: block;
+  clear: both;
+  font-size: 13px;
+  height: 0.7vw;
+  color: #eeeeee;
+  margin: 0;
+  background: rgb(124, 144, 112);
+  /* background: #ffffff; */
 }
 
-h2 {
-  color: rgb(124, 144, 112);
-  font-family: Calibri;
-  text-align: center;
-  font-size: 3vw;
-  margin-top: 1vw;
-  margin-bottom: 1vw;
-  margin-right: 6vw;
-  margin-left: 4vw;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-h3 {
-  color: rgb(249, 123, 34);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: left;
+.center {
+  width: 100%;
+  max-width: 18.75em;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto {
+  line-height: 200%;
+  color: rgb(147, 12, 12);
+  font-family: 'Calibri';
+  text-align: justify;
+  font-size: 1.3vw;
   margin-top: 1vw;
   margin-bottom: 1vw;
   margin-right: 4vw;
   margin-left: 4vw;
 }
 
-p {
-  color: rgb(124, 144, 112);
-  font-family: 'Calibri';
+
+/*  */
+.block-text__button-container, .block-text__text {
+  margin-top: 1.2em;
+  font-weight: 500;
+}
+
+.uk-text-center {
   text-align: center;
-  font-size: 1.3vw;
+}
+
+p {
+  margin: 0;
+}
+
+element.style {
+  color: #3f26a4;
+  border: 0.0625em solid #3326a4;
+}
+
+.accesomenu {
+  color: rgb(209, 59, 59);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+}
+
+.boton{
+  background-color: #92bd95;
+  border: none;
+  padding: 0.7vw 0.7vw;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  border-radius: 1vw;
+  border-color: #dd0000;
+}
+
+.boton a {
+  font-family: 'Calibri';
+  color: rgb(26, 106, 29);
+  font-size: 1em;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+}
+
+.boton :hover{
+  padding: 0.5vw;
+}
+
+.logo {
+  color: rgb(26, 106, 29);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 4vw;
   margin-top: 1vw;
   margin-bottom: 1vw;
-  margin-right: 0.3vw;
-  margin-left: 0.3vw;
 }
-
-.container {  
-  display: flex;
-  justify-content: right;
-  width: 100vw;
-  /* border: 2px solid red; */
-}
-/* para centrar las imagenes */
-
-.logo{
-  margin-top: 1vw;
-  width: 6vw;
-  /* font-family: 'Calibri'; */
-  text-align: center;
-  font-size: 1.3vw;
-}
-
-/* .bg-image { 
-  width: 100%;
-  align-items: right;
-  height: 600px; 
-  background-image: url('image/background-image.jpg'); 
-  background-image: url("Pizzeria '67 Logo.png");
-  background-size: 100% 100%;  
-  background-repeat: no-repeat;
-} */
-
-/* .bg-image {
-  display: flex;
-  justify-content: center;
-  max-width: 1500px;
-} */
-

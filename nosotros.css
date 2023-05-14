@@ -1,0 +1,50 @@
+.espacio {
+    position: relative;
+    display: block;
+    clear: both;
+    font-size: 1em;
+    height: 0.7vw;
+    color: #eeeeee;
+    margin: 0;
+    /* background: #92bd95; */
+    background: #ffffff;
+}
+  
+.espaciocolor {
+    position: relative;
+    display: block;
+    clear: both;
+    font-size: 1em;
+    height: 0.7vw;
+    color: #eeeeee;
+    margin: 0;
+    background: rgb(124, 144, 112);
+    /* background: #ffffff; */
+}
+
+.texto {
+    line-height: 200%;
+    color: rgb(26, 106, 29);
+    font-style: italic;
+    font-family: 'Calibri';
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+/* img {
+    display: block;
+    width: 100%;
+  } */
+
+.center {
+    display: block;
+    width: 100%;
+    max-width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

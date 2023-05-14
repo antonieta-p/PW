@@ -1,64 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Menú </title>
-    <link rel="stylesheet" href="./menu.css">
-    <link rel="stylesheet" href="./nav.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Pizzería '78' </title> 
+  <!-- link para el ícono de la pestaña -->
+  <!-- <link rel="icon" type="image/x-icon" href="./Imágenes/ícono.png"> -->
+  <!-- link JS&Boostrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- links a las pestañas -->
+  <link rel="stylesheet" href="./nav.css">
+  <link rel="stylesheet" href="./footer.css">
+  <link rel="stylesheet" href="./menu.css">
 </head>
-<ul id="barra">
-    <li id="bar"><a href="./index.html">Inicio</a></li>
-    <li id="bar"><a href="./sucursales.html">Sucursales</a></li>
-    <li id="bar"><a href="./menu.html">Menú</a></li>
-    <li id="bar"><a href="./contacto.html">Contacto</a></li>
-    <li id="bar"><a href="./sobre_nosotros.html">Sobre nosotros</a></li>
-</ul>
-<body><br>
-    <!-- Pizzas -->
-    <h1> Pizzas </h1>
 
-    <h2> Clásicas </h2>
-    <ol> Muzzarella </ol>
-    <ol> Muzzarella con huevo </ol>
-    <ol> Muzzarella con jamón </ol>
-    <ol> Muzzarella con parmesano </ol>
-    <ol> Muzzarella con morrón </ol>
-    <ol> Muzzarella con cebolla de verdeo </ol>
-    <ol> Panceta y huevo </ol>
-    <ol> Napolitana </ol>
-    <ol> Fugazzeta </ol>
-    <ol> Capresse </ol>
-    <ol> Cuatro quesos </ol>
-    <ol> Palmitos y jamón </ol>
-
-    <div></div>
-    <br><br>
-    <!-- Empanadas -->
-    <h1> Empanadas </h1>
+<body>
+    <!-- nav -->
+    <div class="navbar">
+        <a href="./index.html"><i class="fa fa-fw fa-home"></i> Inicio </a>
+        <a class="active" href="./menu.html"> <i class="fa fa-fw fa-search"></i> Menú </a>
+        <a href="./contacto.html"> <i class="fa fa-fw fa-envelope"></i> Contacto </a>
+        <a href="./nosotros.html"> <i class="fa fa-fw fa-user"></i> Nosotros </a>
+    </div>
+    <!-- espacio divisor -->
+    <div class="espacio"></div>
+    <!-- Encabezado -->
+    <div>
+        <h2> Nuestras pizzas </h2>
+    </div>
+    <!-- espacio divisor -->
+    <div class="espacio"></div>
+    <!-- fotos -->
+    <div class="row">
+        <div class="column">
+            <img src="./Imágenes/moderna.jpg">
+            <p class="tipo"> $1300 <b> Moderna </b></p>
+        </div>
+        <div class="column">
+            <img src="./Imágenes/vegetariana.jpg">
+            <p class="tipo"> $1100 <b> Vegetariana </b></p>
+        </div>
+        <div class="column">
+            <img src="./Imágenes/fugazzeta de pepperoni.jpg">
+            <p class="tipo"> $1600 <b> Fugazzeta de pepperoni </b></p>
+        </div>
+        <div class="column">
+            <img src="./Imágenes/fugazzeta de jamon.jpg">
+            <p class="tipo"> $1600 <b> Fugazzeta de jamón </b></p>
+        </div>
+        <div class="column">
+            <img src="./Imágenes/especial de cebolla.jpg">
+            <p class="tipo"> $1300 <b> Especial de cebolla </b></p>
+        </div>
+        <div class="column">
+            <img src="./Imágenes/alemana.jpg">
+            <p class="tipo"> $1300 <b> Alemana </b></p>
+        </div>
+        <div class="column">
+            <img src="./Imágenes/vegetariana.jpg">
+            <p class="tipo"> $1100 <b> Vegana </b></p>
+        </div>
+        <div class="column">
+            <img src="./Imágenes/moderna.jpg">
+            <p class="tipo"> $1200 <b> Jujeña </b></p>
+        </div>
+    </div>
+    <!-- espacio divisor -->
+    <div class="espacio"></div>
+    <div class="espacio"></div>
     
-    <h2> Clásicas </h2>
-    <p> Jamón y queso
-    <br> Carne suave
-    <br> Carne cortada a cuchillo
-    <br> Pollo </p>
     
-    <div></div><br>
     
-    <h2> Vegetarianas </h2>
-    <ol> Verdura </ol>
-    <ol> Humita </ol>
-    <ol> Queso y cebolla </ol>
-    <ol> Puerro y verdeo </ol>
-
-    <h2> Vegetarianas </h2>
-    <table> <!--border = "1px">-->
-        <tr> <th> Precio </th> <th> Tipo </th> <th> Sabor </th> </tr> 
-        <tr> <td> $300 </td> <td> Canastita </td> <td> Verdura </td> </tr>
-        <tr> <td> $300 </td> <td> Empanada </td> <td> Humita </td> </tr> 
-        <!--tr = table row. th = table head = thead-->
-    </table>
-    
+    <!-- pie de página -->
+    <div class="mail">
+        <small> <a style="text-decoration: none;" href="https://mail.google.com/mail/u/0/#inbox"> <b> pizzeria78@gmail.com </b> </a> </small>
+    </div>
+    <!-- copyright -->
+    <div class="CR">
+        <small> &#169 Copyright 1978 - 2023 <b>PIZZERÍA '78</b> </small>
+    </div>
 </body>
-</html>
