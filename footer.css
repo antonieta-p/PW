@@ -74,3 +74,32 @@ b {
     /* margin-right: 3.2em;
     margin-left: 3.2em; */
   }
+
+
+
+  /* NUEVO FOOTER */
+  footer {
+    background-color: #ffffff;
+    color: rgb(26, 106, 29);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-social a {
+    color: #C21010;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .footer-social a:hover {
+    color: rgb(26, 106, 29);
+  }
+  
+  .footer-copyright {
+    margin-top: 10px;
+  }
+  
+  .footer-copyright p {
+    margin-bottom: 5px;
+  }
