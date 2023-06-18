@@ -103,3 +103,22 @@ b {
   .footer-copyright p {
     margin-bottom: 5px;
   }
+
+  /* mail */
+  .email-section {
+    background-color: rgb(124, 144, 112);
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .email-section a {
+    display: inline-block;
+    background-color: rgb(124, 144, 112);
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  
+  .email-section a:hover {
+    color: rgb(26, 106, 29);
+  }
