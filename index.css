@@ -114,9 +114,7 @@ element.style {
 
 
 
-/* NUEVO */
-
-
+/* NUEVO CARRUSEL */
 
 .carousel {
   width: 100%;
@@ -171,4 +169,21 @@ element.style {
   .carousel-slide img {
     width: 33.33%;
   }
+}
+
+
+/* LOGO */
+
+.section {
+  text-align: center;
+}
+
+.section img {
+  width: 100%;
+  height: auto;
+  max-width: 500px; /* Ajusta el ancho máximo según tus necesidades */
+}
+
+.section p {
+  margin-top: 10px;
 }
