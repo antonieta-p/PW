@@ -24,71 +24,41 @@
 
 
 
+/* NUEVO FORMS */
 
-/* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
-    width: 100%;
-    padding: 1em;
-    border: 0.0625em solid #ccc;
-    border-radius: 0.25em;
-    box-sizing: border-box;
-    resize: vertical;
-  }
-  
-  /* Style the label to display next to the inputs */
-  label {
-    padding: 1em 1em 1em 0;
-    display: inline-block;
-  }
-  
-  /* Style the submit button */
-  input[type=submit] {
-    background-color: #92bd95;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    padding: 1em 1.25em;
-    border: none;
-    border-radius: 0.25em;
-    cursor: pointer;
-    float: right;
-    color: rgb(26, 106, 29);
-  }
-  
-  /* Style the container */
-  .container {
-    border-radius: 0.3125em;
-    background-color: rgb(231, 248, 231);
-    padding: 1.25em;
-  }
-  
-  /* Floating column for labels: 25% width */
-  .col-25 {
-    color: rgb(26, 106, 29);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    float: left;
-    width: 25%;
-    margin-top: 0.375em;
-  }
-  
-  /* Floating column for inputs: 75% width */
-  .col-75 {
-    font-family: Calibri;
-    float: left;
-    width: 75%;
-    margin-top: 0.375em;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 37.5em) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  color: rgb(26, 106, 29);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.contact-form input[type="submit"] {
+  background-color: rgb(26, 106, 29);
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #1daa04;
+}
+

@@ -1,3 +1,4 @@
+/* ESPACIOS DIVISORES */
 .espacio {
   position: relative;
   display: block;
@@ -22,53 +23,20 @@
   /* background: #ffffff; */
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 
-.center {
-  width: 100%;
-  max-width: 18.75em;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.texto {
-  line-height: 200%;
-  color: rgb(147, 12, 12);
-  font-family: 'Calibri';
-  text-align: justify;
-  font-size: 1.3vw;
-  margin-top: 1vw;
-  margin-bottom: 1vw;
-  margin-right: 4vw;
-  margin-left: 4vw;
-}
-
-
-/*  */
-.block-text__button-container, .block-text__text {
-  margin-top: 1.2em;
-  font-weight: 500;
-}
-
-.uk-text-center {
+/* LOGO */
+.logo {
   text-align: center;
 }
 
-p {
-  margin: 0;
+.logo img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
 }
 
-element.style {
-  color: #3f26a4;
-  border: 0.0625em solid #3326a4;
-}
 
+/* TEXTO ACCESO AL MENÚ */
 .accesomenu {
   color: rgb(209, 59, 59);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -76,42 +44,27 @@ element.style {
   font-size: 2em;
 }
 
-.boton{
+
+/* BOTÓN DE ACCESO AL MENÚ */
+.botonacceso {
+  text-align: center;
+}
+
+.botonacceso a {
+  display: inline-block;
   background-color: #92bd95;
-  border: none;
-  padding: 0.7vw 0.7vw;
-  text-align: center;
-  display: flex;
-  cursor: pointer;
-  margin: auto;
-  border-radius: 0.8em;
-}
-
-.boton a {
-  font-family: 'Calibri';
   color: rgb(26, 106, 29);
-  font-size: 1em;
-  margin-left: 0.7em;
-  margin-right: 0.7em;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  border-radius: 10px;
 }
 
-.boton :hover{
-  padding: 0.5vw;
+.botonacceso a:hover {
+  transform: scale(1.03);
 }
 
-.logo {
-  color: rgb(26, 106, 29);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-  font-size: 4vw;
-  margin-top: 1vw;
-  margin-bottom: 1vw;
-}
-
-
-
-/* NUEVO CARRUSEL */
-
+/* CARRUSEL */
 .carousel {
   width: 100%;
   overflow: hidden;
@@ -129,7 +82,6 @@ element.style {
   height: auto;
 }
 
-/* Agrega estilos opcionales para los controles de navegación del carrusel */
 .carousel-controls {
   text-align: center;
   margin-top: 10px;
@@ -165,41 +117,4 @@ element.style {
   .carousel-slide img {
     width: 33.33%;
   }
-}
-
-
-/* LOGO */
-
-.section {
-  text-align: center;
-}
-
-.section img {
-  width: 100%;
-  height: auto;
-  max-width: 500px; /* Ajusta el ancho máximo según tus necesidades */
-}
-
-.section p {
-  margin-top: 10px;
-}
-
-
-/* BOTÓN ACCESO AL MENÚ */
-.button-section {
-  text-align: center;
-}
-
-.button-section a {
-  display: inline-block;
-  background-color: #92bd95;
-  color: rgb(26, 106, 29);
-  padding: 10px 15px;
-  text-decoration: none;
-  transition: transform 0.3s;
-  border-radius: 10px;
-}
-
-.button-section a:hover {
-  transform: scale(1.03);
 }

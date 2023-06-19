@@ -85,40 +85,42 @@ b {
     text-align: center;
   }
   
-  .footer-social a {
+  .redes-sociales a {
     color: #C21010;
     font-size: 20px;
     margin-right: 10px;
     text-decoration: none;
   }
   
-  .footer-social a:hover {
+  .redes-sociales a:hover {
     color: rgb(26, 106, 29);
   }
   
-  .footer-copyright {
+  .copyright {
     margin-top: 10px;
   }
   
-  .footer-copyright p {
+  .copyright p {
     margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   /* mail */
-  .email-section {
+  .email {
     background-color: rgb(124, 144, 112);
     text-align: center;
     margin-top: 20px;
   }
   
-  .email-section a {
+  .email a {
     display: inline-block;
     background-color: rgb(124, 144, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
     padding: 10px 15px;
     text-decoration: none;
   }
   
-  .email-section a:hover {
+  .email a:hover {
     color: rgb(26, 106, 29);
   }
