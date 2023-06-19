@@ -22,7 +22,22 @@
     /* background: #ffffff; */
 }
 
-.texto {
+/* TEXTO INDTRODUCCIÓN */
+.responsive-text {
+    max-width: 100%;
+  }
+  
+.responsive-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 5em;
+    margin-right: 45PX;
+    text-align: center;
+    color: rgb(26, 106, 29);
+  }
+
+
+/* .texto {
     line-height: 200%;
     color: rgb(26, 106, 29);
     font-style: italic;
@@ -33,12 +48,7 @@
     margin-bottom: 1em;
     margin-left: 5em;
     margin-right: 5em;
-}
-
-/* img {
-    display: block;
-    width: 100%;
-  } */
+} */
 
 .center {
     display: block;
