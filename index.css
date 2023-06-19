@@ -32,7 +32,7 @@
 .logo img {
   width: 100%;
   height: auto;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 
@@ -117,4 +117,14 @@
   .carousel-slide img {
     width: 33.33%;
   }
+}
+
+
+/* TEMPORIZADOR */
+#countdown {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(209, 59, 59);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

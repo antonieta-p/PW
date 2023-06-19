@@ -14,18 +14,31 @@
   <link rel="stylesheet" href="./nav.css">
   <link rel="stylesheet" href="./footer.css">
   <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./temporizador.js">
 </head>
 
 <body>
   <!-- nav -->
-  <div class="navbar">
+  <!-- <div class="navbar">
     <a class="active" href="./index.html"><i class="fa fa-fw fa-home"></i> Inicio </a>
     <a href="./menu.html"> <i class="fa fa-fw fa-search"></i> Menú </a>
     <a href="./contacto.html"> <i class="fa fa-fw fa-envelope"></i> Contacto </a>
     <a href="./nosotros.html"> <i class="fa fa-fw fa-user-circle"></i> Nosotros </a>
-  </div>
+  </div> -->
+  <!-- espacio divisor -->
+  <!-- <div class="espacio"></div> -->
+  <nav>
+    <ul class="navbar">
+      <li><a href="./index.html"><i class="fa fa-fw fa-home"></i>  Inicio </a></li>
+      <li><a href="./menu.html"> <i class="fa fa-fw fa-search"></i> Menú </a></li>
+      <li><a href="./contacto.html"> <i class="fa fa-fw fa-envelope"></i> Contacto </a></li>
+      <li><a href="./nosotros.html"> <i class="fa fa-fw fa-user-circle"></i> Nosotros </a></li>
+    </ul>
+  </nav>
   <!-- espacio divisor -->
   <div class="espacio"></div>
+  <div class="espacio"></div>
+
   
   
   <!-- logo -->
@@ -47,8 +60,8 @@
   </div>
   <!-- espacio divisor -->
   <div class="espaciocolor"></div>
-  
-  
+
+
   <!-- fotos -->
   <div class="carousel">
     <div class="carousel-slide">
@@ -61,7 +74,35 @@
   <div class="espaciocolor"></div>
   <div class="espacio"></div>
   <div class="espacio"></div>
-  
+  <br>
+
+
+  <!-- temporizador -->
+  <div id="countdown"></div>
+  <script>
+    const nextPromotionDate = new Date(2023, 7, 1);
+
+    function updateCountdown() {
+    const currentDate = new Date();
+    const difference = nextPromotionDate - currentDate;
+    
+    // Cálculos para obtener los días restantes
+    const millisecondsPerDay = 24 * 60 * 60 * 1000;
+    const daysRemaining = Math.floor(difference / millisecondsPerDay);
+    
+    // Actualizar el elemento del contador
+    const countdownElement = document.getElementById('countdown');
+    countdownElement.textContent = `${daysRemaining} días hasta la próxima promo` ;
+    }
+
+    // Actualizar el temporizador cada segundo
+    setInterval(updateCountdown, 1000);
+  </script>
+  <br>
+
+
+
+
   
   <!-- pie de página -->
   <!-- mail -->

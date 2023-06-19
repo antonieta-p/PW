@@ -1,37 +1,29 @@
-.navbar {
-    width: 35%;
-    background-color: #ffffff;
-    overflow: auto;
-    float: right;
-    /* border-bottom: 0.2vw solid rgb(124, 144, 112); */
-  }
-  
-  /* Navbar links */
-.navbar a {
-    text-align: center;
-    padding: 0.9vw;
-    color: #C21010;
-    text-decoration: none;
-    font-size: 1.1em;
-}
-  
-/* Navbar links on mouse-over */
-.navbar a:hover {
-  font-size: 100%;
-  color: rgb(26, 106, 29);
-  /* background-color: #ffd4d4; */
-}
-  
-/* Current/active navbar link */
-a .active {
-    color: #1daa04;
-}
-  
-  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 31.25em) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
-  }
 
+/* w3 school */
+nav {
+  /* background-color: #f1f1f1; */
+  float: right;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #C21010;
+}
+
+.navbar li a:hover {
+  /* background-color: #ddd; */
+  color: rgb(26, 106, 29);
+}
