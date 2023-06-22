@@ -52,6 +52,11 @@
 }
 
 /* w3 school */
+.margen {
+  width: 90%; /* Ancho del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;

@@ -22,6 +22,19 @@
     /* background: #ffffff; */
 }
 
+h2 {
+  color: rgb(124, 144, 112);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 3.2em;
+  /* margin-top: 0.8em; */
+  margin-bottom: 0.4em;
+}
+
+.margen {
+  width: 90%; /* Ancho del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
 
 
 /* NUEVO FORMS */
@@ -62,3 +75,14 @@
   background-color: #1daa04;
 }
 
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  .margen {
+    width: 95%;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+}
