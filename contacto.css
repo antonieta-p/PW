@@ -1,88 +1,130 @@
 .espacio {
-    position: relative;
-    display: block;
-    clear: both;
-    font-size: 13px;
-    height: 0.7vw;
-    color: #eeeeee;
-    margin: 0;
-    /* background: #92bd95; */
-    background: #ffffff;
+  position: relative;
+  display: block;
+  clear: both;
+  font-size: 13px;
+  height: 0.7vw;
+  color: #eeeeee;
+  margin: 0;
+  /* background: #92bd95; */
+  /* background: #ffffff; */
 }
-  
+
 .espaciocolor {
-    position: relative;
-    display: block;
-    clear: both;
-    font-size: 13px;
-    height: 0.7vw;
-    color: #eeeeee;
-    margin: 0;
-    background: rgb(124, 144, 112);
-    /* background: #ffffff; */
+  position: relative;
+  display: block;
+  clear: both;
+  font-size: 13px;
+  height: 0.7vw;
+  color: #eeeeee;
+  margin: 0;
+  background: rgb(124, 144, 112);
+  /* background: #ffffff; */
 }
 
 h2 {
-  color: rgb(124, 144, 112);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-  font-size: 3.2em;
-  /* margin-top: 0.8em; */
-  margin-bottom: 0.4em;
+color: rgb(124, 144, 112);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+font-size: 3.2em;
+/* margin-top: 0.8em; */
+margin-bottom: 0.4em;
 }
 
 .margen {
-  width: 90%; /* Ancho del contenedor */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
+width: 90%; /* Ancho del contenedor */
+margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 
 /* NUEVO FORMS */
 
 .contact-form {
-  max-width: 500px;
-  margin: 0 auto;
+max-width: 500px;
+margin: 0 auto;
 }
 
 .contact-form label {
-  color: rgb(26, 106, 29);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  display: block;
-  margin-bottom: 5px;
+color: rgb(26, 106, 29);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: block;
+margin-bottom: 5px;
 }
 
 .contact-form input,
 .contact-form textarea {
-  color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  border-color: black;
+color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 100%;
+padding: 5px;
+margin-bottom: 10px;
+border-radius: 10px;
+border-color: black;
 }
 
-.contact-form input[type="submit"] {
+/* .contact-form input[type="submit"] { */
+.submit a {
   background-color: rgb(26, 106, 29);
   color: #fff;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .contact-form input[type="submit"]:hover {
-  background-color: #1daa04;
+background-color: #1daa04;
 }
 
 
 /* Media query para pantallas pequeñas */
 @media screen and (max-width: 600px) {
-  .margen {
-    width: 95%;
-  }
+.margen {
+  width: 95%;
+}
 
-  .contact-form {
-    max-width: 100%;
-  }
+.contact-form {
+  max-width: 100%;
+}
+}
+
+
+/* MENSAJE DE CONSULTA */
+
+/* LOGO */
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+.accesoinicio {
+  color: rgb(209, 59, 59);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+.botonacceso {
+  text-align: center;
+}
+
+.botonacceso a {
+  display: inline-block;
+  background-color: #92bd95;
+  color: rgb(26, 106, 29);
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  border-radius: 10px;
+}
+
+.botonacceso a:hover {
+  transform: scale(1.03);
 }

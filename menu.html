@@ -75,13 +75,24 @@
             <!-- Elementos seleccionados por el usuario -->
             </ul>
             <p>Total: <span id="cart-total">$0,00</span></p>
-            <button id="checkout-btn"> <a href="./checkout.html">Checkout</a></button>
+            <button class="botoncheckout" id="checkout-btn"> <a href="./checkout.html"><span>Checkout</a></span></button>
         </div>
     </div>
     <!-- espacio divisor -->
     <div class="espacio"></div>
     <div class="espaciocolor"></div>
     <div class="espacio"></div>
+
+    <script>
+        const checkoutButton = document.getElementById('checkout-btn');
+        checkoutButton.addEventListener('click', redirectToCheckout);
+
+        function redirectToCheckout() {
+            window.location.href = 'checkout.html';
+        }
+
+    </script>
+
 
     <!-- botón para subir al principio de la página -->
     <div class="botoninicio"><a href="#seccion-arriba"> <i class="fa fa-fw fa-arrow-circle-up"></i>Subir</a></div>
@@ -111,7 +122,7 @@
                         <img src="./Imágenes/moderna.jpg">
                         <h4>Nueva moderna</h4>
                         <p class="price">$1300</p>
-                        <button class="add-to-cart-btn" data-product="Nueva moderna" data-price="1300.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Nueva moderna" data-price="1300.00">Agregar</button>
                     </div>
                 </div>
                 <div class="column">
@@ -120,7 +131,7 @@
                         <h4>Vegetariana</h4>
                         <p class="price">$1100</p>
                         <!-- <p class="tipo"> $1100 <b> Vegetariana </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Vegetariana" data-price="1100.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Vegetariana" data-price="1100.00">Agregar</button>
                     </div>
                 </div>
                 <div class="column">
@@ -129,7 +140,7 @@
                         <h4>Pepperoni</h4>
                         <p class="price">$1600</p>
                         <!-- <p class="tipo"> $1600 <b> Pepperoni </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Pepperoni" data-price="1600.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Pepperoni" data-price="1600.00">Agregar</button>
                     </div>
                 </div>
                 <div class="column">
@@ -138,10 +149,11 @@
                         <h4>Fugazzeta de Jamón</h4>
                         <p class="price">$1600</p>
                         <!-- <p class="tipo"> $1600 <b> Fugazzeta de jamón </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Fugazzeta de jamón" data-price="1600.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Fugazzeta de jamón" data-price="1600.00">Agregar</button>
                     </div>
                 </div>
             </div>
+            <div class="espacio"></div>
             <div class="row">
                 <div class="column">
                     <div class="producto">
@@ -149,7 +161,7 @@
                         <h4>Cebolla</h4>
                         <p class="price">$1300</p>
                         <!-- <p class="tipo">$1300 <b> Cebolla </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Cebolla" data-price="1300.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Cebolla" data-price="1300.00">Agregar</button>
                     </div>
                 </div>
                 <div class="column">
@@ -158,7 +170,7 @@
                         <h4>Alemana</h4>
                         <p class="price">$1100</p>
                         <!-- <p class="tipo"> $1100 <b> Alemana </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Alemana" data-price="1100.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Alemana" data-price="1100.00">Agregar</button>
                     </div>
                 </div>
                 <div class="column">
@@ -167,7 +179,7 @@
                         <h4>Vegana</h4>
                         <p class="price">$1600</p>
                         <!-- <p class="tipo"> $1600 <b> Vegana </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Vegana" data-price="1600.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Vegana" data-price="1600.00">Agregar</button>
                     </div>
                 </div>
                 <div class="column">
@@ -176,7 +188,7 @@
                         <h4>Jujeña</h4>
                         <p class="price">$1600</p>
                         <!-- <p class="tipo"> $1600 <b> Jujeña </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Jujeña" data-price="1600.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Jujeña" data-price="1600.00">Agregar</button>
                     </div>
                 </div>
             </div>
@@ -194,7 +206,7 @@
                         <h4>Carne</h4>
                         <p class="price">$300</p>
                         <!-- <p class="tipo"> $300 <b> Carne </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Carne" data-price="300.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Carne" data-price="300.00">Agregar</button>
                     </div>
                 </div>
                 <div class="column">
@@ -203,7 +215,7 @@
                         <h4>Verdura</h4>
                         <p class="price">$300</p>
                         <!-- <p class="tipo"> $300 <b> Verdura </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Verdura" data-price="300.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Verdura" data-price="300.00">Agregar</button>
                     </div>
                 </div>
                 <div class="column">
@@ -212,7 +224,7 @@
                         <h4>Humita</h4>
                         <p class="price">$300</p>
                         <!-- <p class="tipo"> $300 <b> Humita </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Humita" data-price="300.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Humita" data-price="300.00">Agregar</button>
                     </div>
                 </div>
                 <div class="column">
@@ -221,7 +233,7 @@
                         <h4>Mediterránea</h4>
                         <p class="price">$300</p>
                         <!-- <p class="tipo"> $300 <b> Mediterránea </b></p> -->
-                        <button class="add-to-cart-btn" data-product="Mediterránea" data-price="300.00"><b>Agregar</b></button>
+                        <button class="add-to-cart-btn" data-product="Mediterránea" data-price="300.00">Agregar</button>
                     </div>
                 </div>
             </div>

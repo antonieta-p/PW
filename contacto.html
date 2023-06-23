@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="./nav.css">
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="./contacto.css">
-    <!-- <link rel="stylesheet" href="./enviar_correo.php"> -->
 </head>
 
 <body>
@@ -48,13 +47,42 @@
       
         <label for="consulta">Consulta: </label>
         <textarea id="consulta" name="consulta" required></textarea>
-      
-        <input type="submit" value="Enviar">
+        
+        <div class="submit">
+          <a href="./mensaje_consulta.html">Enviar</a>
+        </div>
+        <div class="espacio"></div>
+        <div class="espacio"></div>
       </form>
     </div>
     <!-- espacio divisor -->
     <div class="espaciocolor"></div>
     
+
+    <!-- <script>
+      (function() {
+        emailjs.init('tu_user_id'); // Reemplaza 'tu_user_id' con tu User ID de EmailJS
+      
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+      
+          // Obtén los datos del formulario
+          var formData = new FormData(this);
+      
+          // Envía el correo electrónico utilizando EmailJS
+          emailjs.send('tu_service_id', 'tu_template_id', formData)
+            .then(function(response) {
+              console.log('Consulta enviada correctamente', response);
+              alert('¡Gracias por tu consulta! En breve nos pondremos en contacto.');
+              // Aquí puedes redirigir a otra página o realizar otras acciones después del envío exitoso
+            }, function(error) {
+              console.log('Error al enviar consulta', error);
+              alert('Hubo un error al enviar la consulta. Por favor, inténtalo nuevamente.');
+            });
+        });
+      })();
+    </script> -->
+
     
     <!-- pie de página -->
   

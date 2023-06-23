@@ -13,8 +13,7 @@
   <!-- links a las pestañas -->
   <link rel="stylesheet" href="./nav.css">
   <link rel="stylesheet" href="./footer.css">
-  <link rel="stylesheet" href="./index.css">
-  <link rel="stylesheet" href="./temporizador.js">
+  <link rel="stylesheet" href="./contacto.css">
 </head>
 
 <body>
@@ -31,8 +30,6 @@
   <div class="espacio"></div>
   <div class="espacio"></div>
 
-  
-  
   <!-- logo -->
   <div class="logo">
     <img src="./Imágenes/'78 pizzería.png" alt="Imagen">
@@ -41,59 +38,17 @@
   <div class="espacio"></div>
   
 
-  <!-- botón de acceso al menú --> 
-  <div>
-    <h2 class="accesomenu"> ¡Conocé nuestras pizzas! </h2>
+  <!-- botón de acceso al inicio --> 
+  <div class="nada">
+    <h2 class="accesoinicio"> ¡Gracias por tu compra! </h2>
     <div class="botonacceso">
-      <a href="./menu.html"> Menú </a>
-    </div>
+      <a href="./index.html"> Volver al inicio </a>
+  </div>
     <div class="espacio"></div>
     <div class="espacio"></div>
   </div>
-  <!-- espacio divisor -->
-  <div class="espaciocolor"></div>
 
 
-  <!-- fotos -->
-  <div class="carousel">
-    <div class="carousel-slide">
-      <img src="./Imágenes/pizza 3.png" alt="Imagen 1">
-      <img src="./Imágenes/pizza 2.png" alt="Imagen 2">
-      <img src="./Imágenes/pizza 1.png" alt="Imagen 3">
-    </div>
-  </div>
-  <!-- espacio divisor -->
-  <div class="espaciocolor"></div>
-  <div class="espacio"></div>
-  <div class="espacio"></div>
-  <br>
-
-
-  <!-- temporizador -->
-  <div id="countdown"></div>
-  <script>
-    const nextPromotionDate = new Date(2023, 7, 1);
-
-    function updateCountdown() {
-    const currentDate = new Date();
-    const difference = nextPromotionDate - currentDate;
-    
-    // Cálculos para obtener los días restantes
-    const millisecondsPerDay = 24 * 60 * 60 * 1000;
-    const daysRemaining = Math.floor(difference / millisecondsPerDay);
-    
-    // Actualizar el elemento del contador
-    const countdownElement = document.getElementById('countdown');
-    countdownElement.textContent = `${daysRemaining} días hasta la próxima promo` ;
-    }
-
-    // Actualizar el temporizador cada segundo
-    setInterval(updateCountdown, 1000);
-  </script>
-  <br>
-
-
-  
   <!-- pie de página -->
   <!-- mail -->
   <div class="email">

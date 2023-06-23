@@ -13,8 +13,7 @@
     <!-- links a las pestañas -->
     <link rel="stylesheet" href="./nav.css">
     <link rel="stylesheet" href="./footer.css">
-    <link rel="stylesheet" href="./index.css">
-    <!-- <link rel="stylesheet" href="./enviar_correo.php"> -->
+    <link rel="stylesheet" href="./checkout.css">
 </head>
 
 <body>
@@ -32,7 +31,7 @@
     <div class="espacio"></div>
     
     <!-- encabezado -->
-    <div class="margen"><h2> ¡Estemos en contacto! </h2></div>
+    <div class="margen"><h2> Completá tus datos </h2></div>
     
     <!-- formulario -->
     <div class="margen">
@@ -45,15 +44,52 @@
       
         <label for="email">Email: </label>
         <input type="email" id="email" name="email" required>
+
+        <label for="address">Dirección: </label>
+        <input type="text" id="dirección" name="direccion" required>
+
+        <label for="postalcode">Código postal: </label>
+        <input type="text" id="codigo" name="codigo" required>
+        
+        <label class="form-check-label" for="invalidCheck">Acepto términos y condiciones.</label>
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+        <div class="invalid-feedback">No aceptaste los términos y condiciones.</div>
+        <div class="espacio"></div>
       
-        <label for="consulta">Consulta: </label>
-        <textarea id="consulta" name="consulta" required></textarea>
-      
-        <input type="submit" value="Enviar">
+        <div class="submit">
+          <a href="./mensaje_compra.html">Enviar</a>
+        </div>
+        <div class="espacio"></div>
+        <div class="espacio"></div>
       </form>
     </div>
     <!-- espacio divisor -->
     <div class="espaciocolor"></div>
+
+
+    <script>
+      (function() {
+        emailjs.init('tu_user_id'); // Reemplaza 'tu_user_id' con tu User ID de EmailJS
+      
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+      
+          // Obtén los datos del formulario
+          var formData = new FormData(this);
+      
+          // Envía el correo electrónico utilizando EmailJS
+          emailjs.send('tu_service_id', 'tu_template_id', formData)
+            .then(function(response) {
+              console.log('Correo electrónico enviado correctamente', response);
+              alert('¡Gracias por tu consulta! Nos pondremos en contacto contigo pronto.');
+              // Aquí puedes redirigir a otra página o realizar otras acciones después del envío exitoso
+            }, function(error) {
+              console.log('Error al realizar la compra', error);
+              alert('Hubo un error al realizar la compra. Por favor, inténtalo nuevamente.');
+            });
+        });
+      })();
+    </script>
     
     
     <!-- pie de página -->
