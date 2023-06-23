@@ -23,3 +23,17 @@ function addToCart(event) {
   const newTotal = currentTotal + price;
   cartTotal.textContent = `$${newTotal.toFixed(2)}`;
 }
+
+
+window.addEventListener('scroll', function() {
+  var cartContainer = document.querySelector('.cart-container');
+  var cartSection = document.querySelector('.cart-section');
+  var cartSectionOffset = cartSection.offsetTop;
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop >= cartSectionOffset) {
+    cartContainer.classList.add('fixed');
+  } else {
+    cartContainer.classList.remove('fixed');
+  }
+});

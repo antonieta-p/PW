@@ -2,11 +2,22 @@
     width: 98%;
     max-width: 1200px;
     margin: 0 auto;
-    /* padding: 20px; */
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     border-radius: 10px;
+    /* position: fixed; Set the navbar to fixed position */
+    /* overflow: hidden; */
+    /* top: 0; Position the navbar at the top of the page */
+    /* width: 100%; Full width */
+}
+
+.cart-items-list {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
   
+
 .cart-container h2 {
     text-align: center;
 }
@@ -44,17 +55,57 @@
     cursor: pointer;
 }
 
-.add-to-cart-btn :hover {
+.add-to-cart-btn b {
+    color: #fff;
+}
+
+.add-to-cart-btn b:hover {
     color: rgb(26, 106, 29);
 }
 
-.checkout-btn button {
-    background-color: rgb(124, 144, 112);
+#checkout-btn {
+    /* Estilos regulares del botón */
+    background-color: #0e8003 ;
     color: #fff;
+    padding: 5px 5px;
     border: none;
-    padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
+    display: block;
+    
+    /* responsive */
+    width: 100%;
+    max-width: 200px; /* Ancho máximo del botón */
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+@media screen and (max-width: 600px) {
+    #checkout-btn {
+      max-width: 150px; /* Ancho máximo del botón en pantallas más pequeñas */
+    }
+}
+
+#checkout-btn a{
+    /* Estilos regulares del botón */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    
+    /* responsive */
+    width: 100%;
+    max-width: 200px; /* Ancho máximo del botón */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#checkout-btn:hover {
+    background-color: #1daa04;
 }
 
 
