@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./nav.css">
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="./carrito.css">
 </head>
 
 <body>
@@ -21,9 +22,9 @@
     <nav>
         <ul class="navbar">
           <li><a href="./index.html"><i class="fa fa-fw fa-home"></i>  Inicio </a></li>
-          <li><a href="./menu.html"> <i class="fa fa-fw fa-search"></i> Menú </a></li>
+          <li><a href="./menu.html"> <i class="fa fa-fw fa-bars"></i> Menú </a></li>
           <li><a href="./contacto.html"> <i class="fa fa-fw fa-envelope"></i> Contacto </a></li>
-          <li><a href="./nosotros.html"> <i class="fa fa-fw fa-user-circle"></i> Nosotros </a></li>
+          <li><a href="./nosotros.html"> <i class="fa fa-fw fa-user" aria-hidden="true"></i> Nosotros </a></li>
         </ul>
     </nav>
     <!-- espacio divisor -->
@@ -62,57 +63,164 @@
     </script>
     <!-- espacio divisor -->
     <div class="espacio"></div>
-    <div class="espacio"></div>
-    
-
-    <!-- encabezado -->
-    <div id="seccion-pizzas"><div class="margen"><h2> Pizzas </h2></div></div>
+    <div class="espaciocolor"></div>
 
 
-    <!-- fotos -->
-    <div class="margen">
-        <div class="row">
-            <div class="column">
-                <img src="./Imágenes/moderna.jpg">
-                <p class="tipo"> $1300 <b> Moderna </b></p>
-            </div>
-            <div class="column">
-                <img src="./Imágenes/vegetariana.jpg">
-                <p class="tipo"> $1100 <b> Vegetariana </b></p>
-            </div>
-            <div class="column">
-                <img src="./Imágenes/fugazzeta de pepperoni.jpg">
-                <p class="tipo"> $1600 <b> Fugazzeta de pepperoni </b></p>
-            </div>
-            <div class="column">
-                <img src="./Imágenes/fugazzeta de jamon.jpg">
-                <p class="tipo"> $1600 <b> Fugazzeta de jamón </b></p>
-            </div>
-            <div class="column">
-                <img src="./Imágenes/especial de cebolla.jpg">
-                <p class="tipo"> $1300 <b> Especial de cebolla </b></p>
-            </div>
-            <div class="column">
-                <img src="./Imágenes/alemana.jpg">
-                <p class="tipo"> $1300 <b> Alemana </b></p>
-            </div>
-            <div class="column">
-                <img src="./Imágenes/vegetariana.jpg">
-                <p class="tipo"> $1100 <b> Vegana </b></p>
-            </div>
-            <div class="column">
-                <img src="./Imágenes/moderna.jpg">
-                <p class="tipo"> $1200 <b> Jujeña </b></p>
-            </div>
+
+
+
+
+
+
+    <!-- Contenedor del carrito de compras -->
+    <div class="margen-carrito"></div>
+        <div class="cart-container">
+            <h1> Carrito </h1>
+            <ul id="cart-items">
+            <!-- Aquí se agregarán los elementos seleccionados por el usuario -->
+            </ul>
+            <p>Total: <span id="cart-total">$0,00</span></p>
+            <button id="checkout-btn"> Checkout </button>
         </div>
     </div>
     <!-- espacio divisor -->
+    <div class="espaciocolor"></div>
     <div class="espacio"></div>
-    <div class="espacio"></div>
+  
+    <!-- Pizzas -->
+    <div class="margen-carrito">
+        <div id="seccion-pizzas" class="products-container">
+            <h2> Pizzas </h2>
+            <div class="row">
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/moderna.jpg">
+                        <p class="tipo">$1300 <b> Nueva moderna</b></p>
+                        <button class="add-to-cart-btn" data-product="Nueva moderna" data-price="1300.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/vegetariana.jpg">
+                        <p class="tipo"> $1100 <b> Vegetariana </b></p>
+                        <button class="add-to-cart-btn" data-product="Vegetariana" data-price="1100.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/fugazzeta de pepperoni.jpg">
+                        <p class="tipo"> $1600 <b> Pepperoni </b></p>
+                        <button class="add-to-cart-btn" data-product="Pepperoni" data-price="1600.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/fugazzeta de jamon.jpg">
+                        <p class="tipo"> $1600 <b> Fugazzeta de jamón </b></p>
+                        <button class="add-to-cart-btn" data-product="Fugazzeta de jamón" data-price="1600.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/especial de cebolla.jpg">
+                        <p class="tipo">$1300 <b> Cebolla </b></p>
+                        <button class="add-to-cart-btn" data-product="Cebolla" data-price="1300.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/alemana.jpg">
+                        <p class="tipo"> $1100 <b> Alemana </b></p>
+                        <button class="add-to-cart-btn" data-product="Alemana" data-price="1100.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/vegetariana.jpg">
+                        <p class="tipo"> $1600 <b> Vegana </b></p>
+                        <button class="add-to-cart-btn" data-product="Vegana" data-price="1600.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/moderna.jpg">
+                        <p class="tipo"> $1600 <b> Jujeña </b></p>
+                        <button class="add-to-cart-btn" data-product="Jujeña" data-price="1600.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Empanadas -->
+    <div class="margen-carrito">
+        <div id="seccion-empanadas" class="products-container">
+            <h2> Empanadas </h2>
+            <div class="row">
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/empanada 3.png">
+                        <p class="tipo"> $300 <b> Carne </b></p>
+                        <button class="add-to-cart-btn" data-product="Carne" data-price="300.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/empanada 4.png">
+                        <p class="tipo"> $300 <b> Verdura </b></p>
+                        <button class="add-to-cart-btn" data-product="Verdura" data-price="300.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/empanada 5.png">
+                        <p class="tipo"> $300 <b> Humita </b></p>
+                        <button class="add-to-cart-btn" data-product="Humita" data-price="300.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="producto">
+                        <img src="./Imágenes/empanada 6.png">
+                        <p class="tipo"> $300 <b> Mediterránea </b></p>
+                        <button class="add-to-cart-btn" data-product="Mediterránea" data-price="300.00"> <i class="fa fa-fw fa-shopping-cart"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     
-    
-    <!-- encabezado -->
-    <div id="seccion-empanadas"><div class="margen"><h2> Empanadas </h2></div></div>
+    <script>
+        // Event listener para los botones "Agregar al carrito"
+        const addToCartButtons = document.querySelectorAll('.add-to-cart-btn');
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', addToCart);
+        });
+
+        // Función para agregar un elemento al carrito
+        function addToCart(event) {
+            const product = event.target.getAttribute('data-product');
+            const price = parseFloat(event.target.getAttribute('data-price'));
+
+            // Crear el elemento del carrito
+            const cartItem = document.createElement('li');
+            cartItem.textContent = `${product} - $${price.toFixed(2)}`;
+
+            // Agregar el elemento al carrito
+            const cartItemsList = document.getElementById('cart-items');
+            cartItemsList.appendChild(cartItem);
+
+            // Actualizar el total del carrito
+            const cartTotal = document.getElementById('cart-total');
+            const currentTotal = parseFloat(cartTotal.textContent.substring(1));
+            const newTotal = currentTotal + price;
+            cartTotal.textContent = `$${newTotal.toFixed(2)}`;
+        }
+    </script>
 
 
 
