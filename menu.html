@@ -70,12 +70,14 @@
     <!-- Contenedor del carrito de compras -->
     <div class="margen-carrito">
         <div class="cart-container">
-            <h1> Carrito </h1>
+            <h1> Carrito <i class="fa fa-shopping-cart" aria-hidden="true"></i> </h1>
             <ul id="cart-items">
             <!-- Elementos seleccionados por el usuario -->
             </ul>
             <p>Total: <span id="cart-total">$0,00</span></p>
             <button class="botoncheckout" id="checkout-btn"> <a href="./checkout.html"><span>Checkout</a></span></button>
+            <div class="espacio"></div>
+            <button id="clear-cart-btn"><i class="fa fa-times" aria-hidden="true"></i> Vaciar carrito <i class="fa fa-times" aria-hidden="true"></i></button> <!-- Botón para vaciar el carrito -->
         </div>
     </div>
     <!-- espacio divisor -->
@@ -89,6 +91,27 @@
 
         function redirectToCheckout() {
             window.location.href = 'checkout.html';
+        }
+
+        // Obtener referencia al botón de vaciar carrito
+        const clearCartButton = document.getElementById('clear-cart-btn');
+
+        // Agregar evento de clic al botón de vaciar carrito
+        clearCartButton.addEventListener('click', clearCart);
+
+        // Función para vaciar el carrito completamente
+        function clearCart() {
+            // Obtener referencia a la lista de elementos del carrito
+            const cartItemsList = document.getElementById('cart-items');
+
+            // Remover todos los elementos de la lista
+            while (cartItemsList.firstChild) {
+                cartItemsList.removeChild(cartItemsList.firstChild);
+            }
+
+            // Actualizar el total del carrito a 0
+            const cartTotal = document.getElementById('cart-total');
+            cartTotal.textContent = '$0.00';
         }
 
     </script>
@@ -110,6 +133,7 @@
             }
         });
     </script>
+    
 
 
     <!-- Pizzas -->

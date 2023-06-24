@@ -155,4 +155,30 @@
     opacity: 1;
     right: 0;
   }
+
+  #clear-cart-btn {
+    /* Estilos regulares del botón */
+    /* background-color: #0e8003 ; */
+    color: #0e8003;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    
+    /* responsive */
+    width: 100%;
+    max-width: 200px; /* Ancho máximo del botón */
+    margin-left: auto;
+    margin-right: auto;
+}
   
+@media screen and (max-width: 600px) {
+    #checkout-btn {
+      max-width: 150px; /* Ancho máximo del botón en pantallas más pequeñas */
+    }
+}
+  
+  #clear-cart-btn:hover {
+    font-size: 130%;
+}
